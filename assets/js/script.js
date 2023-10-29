@@ -59,7 +59,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Pragati Sahu";
+            document.title = "Portfolio | Durgesh Pratap Tiwari";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["frontend development", "backend development", "web designing", "android development", "Full Stack Web Development", "Data Analysis", "Machine Learning"],
+    strings: ["frontend development", "backend development", "web designing", "Full Stack Web Development"],
     loop: true,
     typeSpeed: 60,
     backSpeed: 30,
